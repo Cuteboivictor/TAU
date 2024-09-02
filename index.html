@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        TAU 
+    </title>
+</head>
+<body>
+    <section class="showcase">
+        <Header>
+            <h2 class="logo">Thomas Adewumi University</h2>
+            <div class="toggle"></div>
+        </Header>
+
+        <video src="explore.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+           <h2>Never Stop</h2>
+           <h3>Exploring New Posiblilities</h3>
+           <p>
+            Our platform is designed to advance communication and enhance academic studies within the university community. We aim to bridge the gap between students, faculty, and administration by providing a seamless and interactive environment for sharing information, collaborating on projects, and accessing educational resources. By leveraging the latest in digital communication tools, we strive to foster a culture of continuous learning, innovation, and academic excellence. Our goal is to empower every member of the university with the tools they need to succeed, ensuring that knowledge and support are always within reach.
+           </p>
+           <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li>
+                <a href="#"><img src="facebook 3.png" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="twitter 3.png" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="instagram 6.png" alt="" /></a>
+            </li>
+        </ul>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About TAU</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Support Unit</a></li>
+        </ul>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+        })
+       
+    </script>
+</body>
+
+</html>
